@@ -1,6 +1,11 @@
+
 # Ngtictactoe
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1. Will implement TCP server with Go for multiplayer functionality. Relevant code is on the Model folder.  
+
+## Running App
+
+Run `npm install` in the `ngtictactoe` folder and run `ng serve -o`
 
 ## Development server
 
