@@ -1,0 +1,14 @@
+<app-player-stats></app-player-stats>
+<div class="centrecomp">
+    <h1 style = "margin-left: -3% ;text-align: center;">Current Turn : {{CurrentTurn}}</h1>
+    <div class ="container">
+        <div *ngFor="let boardElem of getBoard(); let indexOfelement=index;" >
+           <button (click)="onSelect(indexOfelement);" mat-button >{{boardElem}}</button>
+       
+        </div>
+        <div class="centre-comp-child-2">
+            <button  mat-raised-button (click)="startGame()">Start Game</button>
+       </div>
+   </div>
+   
+</div>

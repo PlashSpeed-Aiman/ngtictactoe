@@ -1,0 +1,12 @@
+<div mat-dialog-content>
+    <h1>Player Name</h1>
+    <mat-form-field appearance="fill">
+        <mat-label>Insert Name</mat-label>
+        <input matInput  >
+    </mat-form-field>
+    <div mat-dialog-actions>
+        <button mat-button (click)="onNoClick()" >No Thanks</button>
+        <button mat-button [mat-dialog-close]="" cdkFocusInitial>Ok</button>
+      </div>
+</div>
+
