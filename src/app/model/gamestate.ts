@@ -2,7 +2,7 @@
 
 
 export class GameState{
-    private CurrentState : string[] = ["","","","","","","","",""]
+    private CurrentState : string[] = ["#","#","#","#","#","#","#","#","#"]
     private Turn         : any;
     private isGameWon    : boolean = false;
 
@@ -21,6 +21,7 @@ export class GameState{
         this.isGameWon  = true
     }
     public resetGameState(){
-        this.CurrentState = ["","","","","","","","",""]
+        this.CurrentState = ["#","#","#","#","#","#","#","#","#"]
+        this.isGameWon  = false
     }
 }

@@ -52,11 +52,11 @@ export class GameComponentComponent implements OnInit {
 
   }
   public startGame(){
-    let testDialog = this._dialog.open(InfoDialogComponent)
-    testDialog.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
+    // let testDialog = this._dialog.open(InfoDialogComponent)
+    // testDialog.afterClosed().subscribe(result => {
+    //   console.log('The dialog was closed');
      
-    });
+    // });
     this._players.push(new Player("Player 1",Symbols.Circle))
     let player2 : Player = new Player("Player 2",Symbols.Cross)
     this._players.push(player2)
